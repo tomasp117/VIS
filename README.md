@@ -19,3 +19,32 @@ Je třeba vytvořit webovou aplikaci pro zápis utkání, správu týmů a syst�
 Systém najde využití, když budou chtít kluby a pořadatelé turnaje ulehčit a zpřehlednit chod celého turnaje
 ## Jak
 Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework Scrum. Tento přístup umožní flexibilní a iterativní vývoj, kde každý sprint přináší konkrétní výsledky a produkty.
+
+# Funkční specifikace
+## Use case diagram
+- viz. lucid chart
+## Scénaře
+- ### 1. scénář
+  - Název: Trenér přidá do nového hráče
+  - Aktéři: Trenér
+  - Vstupní podmínky:
+    - Trenér je přihlášený
+  - Spouštěč:
+    - Trenér stikne tláčitko "Spravovat hráče"
+  - Úspěšný scénář:
+    - Trenér se přihlásí do systému
+    - Přihlášovací údaje byly správné
+    - Trenér naviguje na stránku "Můj tým".
+    - Načtení informací o tůmu
+    - Trenér klikne na tlačítko "Spravovat hráče".
+    - Načtení hráčů
+    - Trenér klikne na tlačítko "Přidat nového hráče".
+    - Zobrazení formuláře
+    - Trenér vyplní potřebné údaje
+    - Trenér klikne na tlačítko "Přidat hráče"
+    - Kontrola formuláře
+    - Formulář byl správně vyplněn
+    - Přidání hráče do systému
+    - Přidání hráče do týmu
+- ### 2. scénář
+- ### 3. scénář
