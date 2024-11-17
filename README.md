@@ -86,7 +86,8 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
   - ### 1. scénář
 ![Blank diagram](https://github.com/user-attachments/assets/4c111fd9-c757-4f25-b7cc-b02d96c37fc8)
   - ### 2. scénář
-![Blank diagram (1)](https://github.com/user-attachments/assets/a6e82187-4e81-4872-a444-be4d842498c8)
+![Blank diagram (2)](https://github.com/user-attachments/assets/81c20129-2576-4344-b7f8-3f284775b4d8)
   - ### 3. scénář
+![Blank diagram (3)](https://github.com/user-attachments/assets/26218cb5-23f7-452d-9305-1e60b263b5c8)
 
  
