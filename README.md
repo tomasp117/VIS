@@ -3,6 +3,7 @@
 Průběh a příprava turnaje byla doposud řešena manuálně a většina informací se muselo manuálně zadávat z papíru do dokumentů.
 ## Co
 Je třeba vytvořit webovou aplikaci pro zápis utkání, správu týmů a systém pro usnadnění chodu turnaje.
+Při posledním turnaji, se musely zípisy utkání nosit do klubovny pro následné zapsaní do tabulek a to výrazně zdelšilo a znepříjemnilo průběh turnaje.
 ## Kdo
 - Nepřihlášený uživatel
   - Bude si moct prohlídnout průběh celého turnaje, jako například, statistiky a zápasy
