@@ -49,4 +49,39 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
     - Přidání hráče do systému
     - Přidání hráče do týmu
 - ### 2. scénář
+  - Název: Zapisovatel zaznamená průběh zápasu
+  - Aktéři: Zapisovatel
+  - Vstupní podmínky:
+     - Zapisovatel je přihlášený.
+     - Zápas, který má být zaznamenán, existuje v systému a je ve stavu msNone a nebo msPending.
+  - Spouštěč:
+      - Zapisovatel klikne na tlačítko pro kontrolu a začátek zápasu.
+  - Úspěšný scénář: 
+      - Zapisovatel se přihlásí do systému.
+      - Přihlášení proběhne úspěšně.
+      - Zapisovatel přejde na stránku „Zápasy“.
+      - Zapisovatel vyhledá požadovaný zápas pomocí filtru (např. podle čísla utkání).
+      - Systém zobrazí podrobnosti o zápasu.
+      - Zapisovatel klikne na tlačítko „Zaznamenat průběh zápasu“.
+      - Zobrazí se formulář pro zípis utkání.
+      - Zapisovatel zaznamená góly, fauly a případné poznámky.
+      - Po vypršení časomíry zapisovatel zkontroluje data a uloží zápas.
+      - Systém uloží údaje a aktualizuje statistiky zápasu.
+      - Systém změní stav zápasu na „msDone“.
 - ### 3. scénář
+  - Název: Trenér hlasuje o nejlepším hráči turnaje
+  - Aktéři: Trenér
+  - Vstupní podmínky:
+    - Trenér je přihlášený.
+    - Hlasovací okno je otevřené (systém umožňuje hlasování).
+  - Spouštěč:
+    - Trenér klikne na tlačítko „Hlasovat o nejlepším hráči“.
+  - Úspěšný scénář:
+    - Trenér se přihlásí do systému.
+    - Přihlášení proběhne úspěšně.
+    - Trenér přejde na stránku „Hlasování“.
+    - Trenér vybere svého favorita ze seznamu.
+    - Trenér klikne na tlačítko „Odeslat hlas“.
+    - Systém zkontroluje, zda trenér již nehlasoval.
+    - Zaznamenání hlasu.
+    - Systém zobrazí potvrzení „Hlas byl úspěšně zaznamenán“.
