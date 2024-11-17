@@ -32,56 +32,52 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
   - Vstupní podmínky:
     - Trenér je přihlášený
   - Spouštěč:
-    - Trenér stikne tláčitko "Spravovat hráče"
+    - Trenér stikne tláčitko pro spřávu hráčů
   - Úspěšný scénář:
-    - Trenér se přihlásí do systému
-    - Přihlášovací údaje byly správné
-    - Trenér naviguje na stránku "Můj tým".
-    - Načtení informací o tůmu
-    - Trenér klikne na tlačítko "Spravovat hráče".
-    - Načtení hráčů
-    - Trenér klikne na tlačítko "Přidat nového hráče".
-    - Zobrazení formuláře
+    - Trenér přejde na stránku pro správu týmu
+      - Načtení informací o týmu
+    - Trenér vybere možnost pro správu hráčů
+      - Načtení hráčů
+    - Trenér klikne na tlačítko pro přidání nového hráče
+      - Zobrazení formuláře
     - Trenér vyplní potřebné údaje
-    - Trenér klikne na tlačítko "Přidat hráče"
-    - Kontrola formuláře
-    - Formulář byl správně vyplněn
+    - Trenér potvrdí přidání hráče
+      - Validace formuláře
     - Přidání hráče do systému
     - Přidání hráče do týmu
 - ### 2. scénář
   - Název: Zapisovatel zaznamená průběh zápasu
   - Aktéři: Zapisovatel
   - Vstupní podmínky:
-     - Zapisovatel je přihlášený.
-     - Zápas, který má být zaznamenán, existuje v systému a je ve stavu msNone a nebo msPending.
+     - Zapisovatel je přihlášený
+     - Zápas, který má být zaznamenán, existuje v systému a je ve stavu msNone a nebo msPending
   - Spouštěč:
       - Zapisovatel klikne na tlačítko pro kontrolu a začátek zápasu.
   - Úspěšný scénář: 
-      - Zapisovatel se přihlásí do systému.
-      - Přihlášení proběhne úspěšně.
-      - Zapisovatel přejde na stránku „Zápasy“.
-      - Zapisovatel vyhledá požadovaný zápas pomocí filtru (např. podle čísla utkání).
-      - Systém zobrazí podrobnosti o zápasu.
-      - Zapisovatel klikne na tlačítko „Zaznamenat průběh zápasu“.
-      - Zobrazí se formulář pro zípis utkání.
-      - Zapisovatel zaznamená góly, fauly a případné poznámky.
-      - Po vypršení časomíry zapisovatel zkontroluje data a uloží zápas.
-      - Systém uloží údaje a aktualizuje statistiky zápasu.
-      - Systém změní stav zápasu na „msDone“.
+      - Zapisovatel přejde na stránku pro seznam zápasů.
+        - Načtou se zápasy
+      - Zapisovatel vyhledá požadovaný zápas pomocí filtru (např. podle čísla utkání)
+        - Zobrazí se podrobnosti o zápasu
+      - Zapisovatel klikne na tlačítko pro zápis utkání
+        - Zobrazí se formulář pro zápis utkání
+      - Zapisovatel zaznamená góly, fauly a případné poznámky
+      - Po vypršení časomíry zapisovatel zkontroluje data a uloží zápas
+        - Uloží se údaje o zápasu
+        - Změní se stav utkání na msDone
 - ### 3. scénář
   - Název: Trenér hlasuje o nejlepším hráči turnaje
   - Aktéři: Trenér
   - Vstupní podmínky:
-    - Trenér je přihlášený.
-    - Hlasovací okno je otevřené (systém umožňuje hlasování).
+    - Trenér je přihlášený
+    - Hlasovací okno je otevřené (systém umožňuje hlasování)
   - Spouštěč:
-    - Trenér klikne na tlačítko „Hlasovat o nejlepším hráči“.
+    - Trenér klikne na tlačítko pro hlasování o nejlepšího hráče
   - Úspěšný scénář:
-    - Trenér se přihlásí do systému.
-    - Přihlášení proběhne úspěšně.
-    - Trenér přejde na stránku „Hlasování“.
-    - Trenér vybere svého favorita ze seznamu.
-    - Trenér klikne na tlačítko „Odeslat hlas“.
-    - Systém zkontroluje, zda trenér již nehlasoval.
-    - Zaznamenání hlasu.
-    - Systém zobrazí potvrzení „Hlas byl úspěšně zaznamenán“.
+    - Trenér přejde na stránku pro hlasování
+    - Vybere možnost pro hlasování o nejlepšího hráče
+      - Zobrazí se seznam hráčů
+    - Trenér vybere svého favorita ze seznamu
+    - Trenér odešle hlas
+      - Zkontroluje se zda trenér již nehlasoval
+    - Zaznamenání hlasu
+    - Systém zobrazí potvrzení o úspešném hlasování.
