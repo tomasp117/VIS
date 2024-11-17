@@ -23,7 +23,8 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
 
 # Funkční specifikace
 ## Use case diagram
-- viz. lucid chart
+![Use case diagram (1)](https://github.com/user-attachments/assets/8a3af26c-5956-48c4-aec1-099126b2648b)
+
 ## Scénaře
 - ### 1. scénář
   - Název: Trenér přidá do nového hráče
