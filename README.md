@@ -45,6 +45,7 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
       - Validace formuláře
     - Přidání hráče do systému
     - Přidání hráče do týmu
+    - Zobrazení potvrzení
 - ### 2. scénář
   - Název: Zapisovatel zaznamená průběh zápasu
   - Aktéři: Zapisovatel
