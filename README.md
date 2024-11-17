@@ -82,3 +82,9 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
       - Zkontroluje se zda trenér již nehlasoval
     - Zaznamenání hlasu
     - Systém zobrazí potvrzení o úspešném hlasování.
+## Aktivitní diagramy
+  - ### 1. scénář
+![Blank diagram](https://github.com/user-attachments/assets/4c111fd9-c757-4f25-b7cc-b02d96c37fc8)
+  - ### 2. scénář
+  - ### 3. scénář
+ 
