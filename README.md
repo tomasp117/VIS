@@ -135,4 +135,10 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
   - Web: Primární platforma (prohlížeče).
   - Mobile: Možnost responsivního designu nebo budoucího rozšíření na mobilní aplikaci.
   - Desktop: Nepotřebné, protože web pokryje potřeby uživatelů.
-   
+# Wireframes
+## Přihlášení
+![wireframe_login](https://github.com/user-attachments/assets/00db6335-e747-4254-9489-a401f9a97dac)
+## Týmy v kategorii
+![wireframe_tymy](https://github.com/user-attachments/assets/a8006499-2722-47ea-b012-469a52db7b60)
+## Zápis utkání
+![wireframe_zapis](https://github.com/user-attachments/assets/45234020-e298-4aa0-9b92-4af5f22cb854)
