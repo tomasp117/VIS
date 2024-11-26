@@ -89,5 +89,37 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
 ![Blank diagram (2)](https://github.com/user-attachments/assets/81c20129-2576-4344-b7f8-3f284775b4d8)
   - ### 3. scénář
 ![Blank diagram (3)](https://github.com/user-attachments/assets/26218cb5-23f7-452d-9305-1e60b263b5c8)
+# Technická specifikace
+## Konceptuální doménový model
+![domain_model](https://github.com/user-attachments/assets/b1b3a7f5-8dc3-4416-9ae0-cf449d942048)
+## Odhad počtu uživatelů současně pracujících se systémem
+|Kategorie uživatelů|Počet současně pracujících uživatelů (peak)|Průměr současně aktivních uživatelů|
+|-------------------|--------------------------------------------|----------------------------------|
+|Admin              |2                                           |1                                 |
+|Recorder           |7                                           |5                                 |
+|Coach              |15                                          |7                                 |
+|Spectator          |100                                         |30                                |
+## Typy interakcí uživatelů současně pracujících se systémem
+### Nejčastější interakce:
+- Zapisování průběhu zápasu (Recorder):
+  - Operace: Vytváření záznamů (Event) a aktualizace zápasu.
+  - Náročnost:
+    - Výpočetní: Nízká – pouze zápis nových dat.
+    - I/O: Vysoká – časté zapisování do databáze během zápasu.
+- Prohlížení statistik (Spectators):
+  - Operace: Dotazy na statistiky týmů, hráčů, zápasů.
+  - Náročnost:
+    - Výpočetní: Střední – agregace dat, případně filtrování.
+    - I/O: Střední – mnoho paralelních čtení z databáze.
+- Správa uživatelů a dat (Admin):
+  - Operace: Vytváření/úprava týmů, zápasů, uživatelů.
+  - Náročnost:
+    - Výpočetní: Nízká – většina operací jsou jednoduché CRUD akce.
+    - I/O: Nízká – minimální počet záznamů.
+- Hlasování o nejlepším hráči (Coach):
+  - Operace: Zápis hlasu do systému.
+  - Náročnost:
+    - Výpočetní: Nízká – validace jednoho hlasu.
+    - I/O: Nízká – zápis malého objemu dat.
 
  
