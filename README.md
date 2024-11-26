@@ -121,5 +121,18 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
   - Náročnost:
     - Výpočetní: Nízká – validace jednoho hlasu.
     - I/O: Nízká – zápis malého objemu dat.
-
- 
+### Technologie
+- Frontend:
+  - React.js
+    - V budoucnu možnost rozšíření na mobilní aplikaci (React Native)
+- Backend:
+  - ASP.NET Core (C#) 
+- Databáze:
+  - MySQL
+- Hostování:
+  - Oracle Cloud Free Tier pro backend a databázi a případně i frontend
+- Cílové platformy:
+  - Web: Primární platforma (prohlížeče).
+  - Mobile: Možnost responsivního designu nebo budoucího rozšíření na mobilní aplikaci.
+  - Desktop: Nepotřebné, protože web pokryje potřeby uživatelů.
+   
