@@ -142,3 +142,21 @@ Projekt bude realizován pomocí Agile metodologie, konkrétně skrze framework 
 ![wireframe_tymy](https://github.com/user-attachments/assets/a8006499-2722-47ea-b012-469a52db7b60)
 ## Zápis utkání
 ![wireframe_zapis](https://github.com/user-attachments/assets/45234020-e298-4aa0-9b92-4af5f22cb854)
+# Domain model
+## Class diagram
+![class_diagram (2)](https://github.com/user-attachments/assets/e4ba2d04-c99e-4619-8bfb-7274e615c15f)
+## Sekvenční diagramy
+### 1. Přihlášení a přidělení tokenu
+![Use case diagram (2)](https://github.com/user-attachments/assets/245858fe-e9b9-44e2-a68a-e6d64567bde9)
+### 2. Vytvoření nového zápasu
+![Use case diagram (3)](https://github.com/user-attachments/assets/713a159f-928f-4e04-9e47-b53805ef42ec)
+### 3. Vytvoření a přidání hráče do týmu
+![Use case diagram (4)](https://github.com/user-attachments/assets/aa13edd3-06be-45bb-9d4f-48837ebb48cf)
+## Design patterns
+V systému momentálně používám:
+  - Table module
+  - Table Data Gateway (dá se brát i jako Mapper)
+  - Identity field
+Dodatečně by se dalo ještě přidat Service Layer a Unit of Work pro složitější transakce a ušetření posílaní dat na server.
+# Architecture
+
