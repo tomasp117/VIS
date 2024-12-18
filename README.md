@@ -157,6 +157,7 @@ V systému momentálně používám:
   - Table module
   - Table Data Gateway (dá se brát i jako Mapper)
   - Identity field
+
 Dodatečně by se dalo ještě přidat Service Layer a Unit of Work pro složitější transakce a ušetření posílaní dat na server.
 # Architecture
-
+## Diagram component
