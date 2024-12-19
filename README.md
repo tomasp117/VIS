@@ -161,3 +161,10 @@ V systému momentálně používám:
 Dodatečně by se dalo ještě přidat Service Layer a Unit of Work pro složitější transakce a ušetření posílaní dat na server.
 # Architecture
 ## Diagram component
+### 1. Celý systém
+V tomto diagramu komponent jsem zaznačil celý systém jak by měl fungovat a jednotlivé komunikace mezi komponenty. Přidal jsem i Services pro složitější byznys logiku.
+![Use case diagram (5)](https://github.com/user-attachments/assets/a606060e-2c0f-478f-a619-f17dcc681eac)
+### 2. Přidání hráče do týmu
+Tady v tomto diagramu jsem popsal přímo daný use case pro přidání hráče do týmu.
+![Use case diagram (6)](https://github.com/user-attachments/assets/f17b5fba-753c-4b71-9102-d433d5494d44)
+
